@@ -1,0 +1,5297 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: cormorant garamond;
+}
+
+body p,
+ul li,
+strong {
+    font-size: 19px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'PT Serif', serif;
+    font-weight: 800;
+
+}
+
+/* header css start  */
+#header {
+    background-color: rgb(226, 239, 245);
+    padding: 0.3rem;
+}
+
+.navbar-brand {
+    font-weight: 800;
+}
+
+.logo {
+    color: #0f5e9f;
+}
+
+#header ul a {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0f5e9f;
+}
+
+#header ul a:hover {
+    color: #fff;
+    background: #0f5e9f;
+    transition: all 0.2s 0.2s ease-in;
+}
+
+/* header css end  */
+
+/* home-section css start  */
+
+#home-section-1 {
+    height: 40rem;
+
+    background: url("https://image.shutterstock.com/image-photo/view-hydroelectric-dam-water-discharge-260nw-1987073498.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.group {
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    max-width: 30rem;
+    background-color: rgba(135, 206, 235, 0.3);
+    transform: skewX(-25deg);
+}
+
+.text {
+    color: #fff;
+    padding: 0 6rem;
+    transform: skewX(25deg);
+}
+
+
+.bookend {
+    position: relative;
+    border-width: 5px;
+    border-color: gray transparent;
+    height: 1px;
+    border-style: double;
+    width: 50%;
+    margin: 35px auto;
+}
+
+.section2-heading {
+    color: #0f5e9f;
+}
+
+.card {
+    font-size: 18px;
+}
+
+.card img {
+    width: 100%;
+    height: 263px;
+}
+
+.card-body p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+
+.home-section-3 {
+    background-color: rgb(226, 239, 245);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.home-section3-heading {
+    color: #0f5e9f;
+}
+
+.item-2 {
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 7px;
+    margin: 3px;
+}
+
+.item-2 img {
+    width: 100%;
+    height: 400px;
+}
+
+
+.content {
+    height: 130px;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    margin-left: 38px;
+}
+
+.content h2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: right;
+    font-size: 5em;
+    /* position: relative; */
+    color: rgba(0, 0, 0, .2);
+    transition: 0.6s;
+    white-space: nowrap;
+}
+
+.content h3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: right;
+    font-size: 1.6em;
+    color: rgba(0, 0, 0, .3);
+    transform: translateY(-18px);
+}
+
+.impor-pera {
+    grid-column: 2/4;
+    grid-row: 1/3;
+    /* position: relative; */
+    top: 29px;
+    padding: 0 20px;
+}
+
+.box:hover h2 {
+    transform: scale(1.8);
+    transform-origin: 20% 30%;
+}
+
+.box:hover h3 {
+    color: #0f5e9f;
+    font-size: 1.7em;
+    transform: translateY(-50px);
+
+    transition: 0.6s;
+}
+
+.box:hover {
+    padding-left: 45px;
+    transition: 0.6s;
+}
+
+
+#section-4 {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.section-4-head {
+    color: #0f5e9f;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 270px;
+    grid-gap: .0em;
+    grid-auto-flow: row dense;
+    font-weight: 400
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    /* background-color: #333; */
+    padding: 2px;
+
+}
+
+div.imgWrap {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+
+.gallery img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    flex: 1;
+    object-fit: cover;
+    transition: all 300ms ease-out;
+}
+
+.box2:hover img {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.two-span-row {
+    grid-row: auto / span 2;
+}
+
+.two-span-column {
+    grid-column: auto / span 2;
+}
+
+.full-span-column {
+    grid-column: 1 / -1;
+    grid-row: span 1;
+}
+
+
+
+.card1 {
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.50);
+}
+
+#home-section-5 {
+    /* padding-top: 4rem;
+    padding-bottom: 6rem; */
+    background-color: rgb(226, 239, 245);
+}
+
+
+#home-section-5 h3 {
+    color: #0f5e9f;
+    /* font-size: 28px; */
+}
+
+.line3 {
+    border: 1px solid;
+    border-color: #0f5e9f;
+    border-top-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    /* margin-bottom: 25px; */
+    width: 100%;
+    max-width: 100px;
+}
+
+
+
+/* home section css end  */
+
+/* footer section css start  */
+
+
+#section5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #fff;
+    background-color: #1C1C1C;
+}
+
+.home-footer {
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #fff;
+}
+
+.icon {
+    padding-right: 1rem;
+}
+
+.footer-heading {
+    padding-top: 1rem;
+
+}
+
+.footer-pera {
+    padding-top: 1.2rem;
+}
+
+.map {
+    padding-top: 1rem;
+}
+
+#footer {
+    background: #000;
+}
+
+/* footer section css end  */
+
+/* about section css start  */
+
+.about1 h3,
+.sec-part1,
+.About-section2-head,
+.About-section3-head,
+.About-section4-head {
+    color: #0f5e9f;
+}
+
+#About-section1 {
+    background-color: rgb(226, 239, 245);
+}
+
+.About-sec-part1 {
+    text-align: justify;
+}
+
+#About-section1 {
+    background-color: rgb(226, 239, 245) !important;
+}
+
+.About-section2-head {
+    text-align: center;
+    font-style: normal;
+}
+
+#About-section3 {
+    background-color: rgb(226, 239, 245) !important;
+}
+
+.card-flyer {
+    border-radius: 5px;
+}
+
+.card-flyer .image-box {
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+
+}
+
+.card-flyer .image-box img {
+    transition: all .9s ease;
+    width: 100%;
+    height: 200px;
+}
+
+.card-flyer:hover .image-box img {
+    transform: scale(1.15);
+}
+
+.card-flyer:hover {
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    transition: all 0.2s ease-in;
+}
+
+.card-flyer .text-box p {
+    text-align: justify;
+    color: #000000;
+}
+
+.About-section3-heighlight {
+    position: relative;
+    background: lightblue;
+    width: 60px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #000;
+
+}
+
+.About-section3-heighlight:before,
+.About-section3-heighlight:after {
+    width: 30px;
+    height: 50%;
+    position: absolute;
+    left: 100%;
+    content: "";
+}
+
+.About-section3-heighlight:before {
+    top: 0px;
+    background: linear-gradient(to right top, lightblue 50%, transparent 50%)
+}
+
+.About-section3-heighlight:after {
+    top: 50%;
+    background: linear-gradient(to right bottom, lightblue 50%, transparent 50%)
+}
+
+
+
+
+.About-section3-heighlight2 {
+
+    position: relative;
+    background: lightblue;
+    width: 50px;
+
+    color: #000;
+
+}
+
+.About-section3-heighlight2:before,
+.About-section3-heighlight2:after {
+    width: 30px;
+    height: 50%;
+    position: absolute;
+    left: 100%;
+    content: "";
+}
+
+.About-section3-heighlight2:before {
+    top: 0px;
+    background: linear-gradient(to right top, lightblue 50%, transparent 50%)
+}
+
+.About-section3-heighlight2:after {
+    top: 50%;
+    background: linear-gradient(to right bottom, lightblue 50%, transparent 50%)
+}
+
+
+
+
+
+.fa-arrow-right {
+    padding-left: 2rem;
+}
+
+.fa-arrow-left {
+    padding-right: 2rem;
+}
+
+.pera-head {
+    padding: 1rem 5rem 2rem 5rem;
+}
+
+
+/* about section css end  */
+
+
+/* how To Reach Page Css  Start */
+.reach-head-2,
+.Reach-heading-1,
+.Reach-section3-head2 {
+    color: #0f5e9f;
+}
+
+.reach-head-2 {
+    text-align: center;
+}
+
+.visit-underline {
+    color: blue;
+}
+
+.visit {
+    text-align: justify;
+}
+
+.iframe {
+    padding: 0px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 379px;
+    height: auto;
+    width: 100%;
+}
+
+.reach-box {
+    float: left;
+    text-align: center;
+}
+
+.reach-img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(226, 239, 245);
+}
+
+.reach-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.reach-descrip {
+    background-color: rgb(226, 239, 245);
+    margin-top: -70px;
+    padding: 70px 30px 30px;
+    border-radius: 5px;
+}
+
+.reach-descrip h4 {
+    font-family: 'Ledger', serif;
+    text-transform: uppercase;
+    color: #281F19;
+}
+
+.reach-descrip p {
+    font-family: 'Ledger', serif;
+    color: #4C3D35;
+}
+
+.place-heading {
+    color: #1A6BB2;
+}
+
+.near-pera {
+    text-align: justify;
+}
+
+/* .image-column .inner-column:after {
+    position: absolute;
+    content: '';
+    right: 0px;
+    top: 0px;
+    left: 40px;
+    bottom: 100px;
+    z-index: -1;
+    border: 3px solid #000;
+}
+
+.image-column .inner-column .image img {
+    width: 22rem;
+    height: 16rem;
+    position: relative;
+    padding-top: 0.5rem;
+
+} */
+
+
+
+.image-11 {
+    width: 22rem;
+    height: 18rem;
+    margin-left: 1rem;
+}
+
+.image-11 img {
+    width: 100%;
+    height: 100%;
+}
+
+.imagemain11 {
+    border: 3px solid #000;
+    width: 22.5rem;
+    height: 18rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 4.5rem;
+    z-index: -1;
+}
+
+.image-column11 {
+    width: 22.5rem;
+    height: 15rem;
+    position: relative;
+    padding-top: 2.5rem;
+
+}
+
+
+/* right   */
+
+
+
+.imagemain12 {
+    border: 3px solid #000;
+    width: 22.5rem;
+    height: 18rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 5rem;
+    z-index: -1;
+}
+
+/* how To Reach Page Css  End */
+
+/* NearBy  Page Css  End */
+
+
+.nearby-heading,
+.nearby-sec2-head {
+    color: #0f5e9f;
+}
+
+.nearby-sec2-head {
+    text-align: center;
+}
+
+.near-box {
+    position: relative;
+    cursor: pointer;
+}
+
+.near-img {
+    width: 270px;
+    height: 270px;
+}
+
+.near-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: all 300ms ease-out;
+}
+
+.near-box:hover img {
+    transform: scale(1.1);
+    opacity: 1;
+    overflow: hidden;
+
+}
+
+.heart {
+    position: absolute;
+}
+
+.heart span {
+    border-radius: 20px;
+    height: 50px;
+    min-width: 50px;
+    background: #fff;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+
+}
+
+.near-decrs {
+    text-align: justify;
+}
+
+.near-decrs span {
+    color: #FF9529;
+}
+
+.near-decrs h4 {
+    color: #0f5e9f;
+    font-weight: 600;
+}
+
+.visit-box img {
+    float: left;
+    margin-top: 1rem;
+}
+
+.header {
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://ghumnekijagah.com/wp-content/uploads/2023/08/bisalpur-e1692680745977.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.place-heading1 h4 {
+    color: #0f5e9f;
+    background: #ededed;
+    width: 210px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+.place-heading2 h4 {
+    color: #0f5e9f;
+    background: #ededed;
+    width: 230px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+.place-heading3 h4 {
+    color: #0f5e9f;
+    background: #ededed;
+    width: 320px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+.place-heading4 h4 {
+    color: #0f5e9f;
+    background: #ededed;
+    width: 360px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+
+/* NearBy  Page Css  End */
+
+/* blog page start  */
+
+#blogtwo {
+
+    background-color: rgb(226, 239, 245);
+}
+
+#blogtwo h3,
+#blog-section1 h3 {
+    color: #0f5e9f;
+
+}
+
+#blogtwo p {
+    font-size: 18px;
+}
+
+.blog-date {
+    opacity: 0.60;
+
+}
+
+.blog-date icon {
+    margin-left: 1rem;
+}
+
+.blog-left-btn {
+    float: left;
+}
+
+.blog-right-btn {
+
+    float: right;
+
+}
+
+.blog-btn {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 6px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none !important;
+    color: #000;
+    background-color: #ededed;
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 5px;
+    transition: all 1s ease-out;
+}
+
+.blog-btn:hover {
+    background-color: #000;
+    color: #ededed;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.Posts ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+.Posts ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Posts ul li:hover {
+    background-color: #ededed;
+}
+
+.posts-heading {
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.Popular-Posts-name {
+    padding-left: 0.5rem;
+}
+
+.blog-box {
+    width: 100%;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 30px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+
+.blog-box:before,
+.blog-box:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    color: #000;
+    background: #f0094a;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.blog-box:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.blog-box:hover:before,
+.blog-box:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.blog-box img {
+    width: 100%;
+    height: 250px;
+}
+
+
+.flexsearch--wrapper {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+    position: static;
+    padding-bottom: 2rem;
+}
+
+.flexsearch--form {
+    overflow: hidden;
+    position: relative;
+}
+
+.flexsearch--input-wrapper {
+    padding: 0 66px 0 0;
+    /* Right padding for submit button width */
+    overflow: hidden;
+}
+
+.flexsearch--input {
+    width: 100%;
+}
+
+
+
+.flexsearch--input {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 40px;
+    padding: 0 46px 0 10px;
+    border-color: #000;
+    border-radius: 10px;
+    /* (height/2) + border-width */
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 15px;
+    color: #000;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+}
+
+.flexsearch--submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 60px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    margin-top: 10px;
+    /* margin-top + border-width */
+    margin-right: 5px;
+    /* border-width */
+    background: transparent;
+    color: #000;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.flexsearch--input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.about-highlight strong,
+.About-section3-heighlight strong {
+    padding-left: 2rem;
+}
+
+/* blog page end */
+
+
+/* MiniGoa page start */
+
+.mini-goa-heading h3 {
+    color: #0f5e9f;
+}
+
+/* MiniGoa page end */
+
+/* blog2  page css end */
+
+.blog2-page h3 {
+    color: #0f5e9f;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#blog2-section1 h5 {
+    padding-top: 0.8rem;
+    padding-right: 1rem;
+}
+
+/* blog2  page css end */
+
+
+/* blog3  page css start */
+.blog3-page img {
+    height: 60vh;
+}
+
+/* blog3  page css end */
+
+
+@media only screen and (min-width:320px) and (max-width:374px) {
+    #home-section-1 {
+        height: 20rem;
+    }
+
+    .logo {
+        padding-left: 0.5rem;
+    }
+
+    .group {
+        height: 20rem;
+        max-width: 14rem;
+    }
+
+    .main-pera {
+        font-size: 16px;
+    }
+
+    .text {
+        padding: 0 1rem;
+    }
+
+    .main-heading {
+        font-size: 22px;
+    }
+
+
+    #section2 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section2-heading {
+        font-size: 22px;
+    }
+
+    .bookend {
+        margin: 10px auto;
+    }
+
+    .summary-box {
+        padding-top: 2rem;
+    }
+
+    .home-section-3 {
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+
+    .home-section3-heading {
+        font-size: 22px;
+    }
+    .impor-box{
+        padding-top: 1.3rem;
+    }
+    .impor-pera,
+    .content,
+    .impor-pera strong {
+        font-size: 14px;
+    }
+.box3,.box4{
+    padding-top: 2rem;
+}
+    .box {
+        padding-bottom: 6rem;
+    }
+
+    #section-4 {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+
+    .section-4-head {
+        font-size: 22px;
+    }
+
+
+    .gallery {
+        padding-top:1.3rem;
+        display: block;
+    }
+
+    .box2 {
+        margin-bottom: 1.2em;
+    }
+
+    #home-section-5 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section6-head {
+        font-size: 22px;
+      
+    }
+    
+    .section6-head p{
+      padding-top: 1rem;
+    }
+
+
+    .section6-head h3 {
+        font-size: 22px;
+    }
+
+    .card-home {
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .card2-home {
+        padding-top: 1rem;
+    }
+
+    #section5 {
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+
+
+    .footer-heading {
+        padding-top: 1.5rem;
+    }
+
+    .home-footer {
+        padding-top: 0.8rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid #fff;
+    }
+
+    .icon {
+        padding-right: 1rem;
+    }
+
+    .footer-pera {
+        padding-top: 0.2rem;
+        margin-bottom: 0rem;
+    }
+
+    .map {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    /* about page css start  */
+    #About-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        /* background-color: rgb(226, 239, 245); */
+    }
+
+    .about1 h3 {
+        text-align: center;
+        color: #0f5e9f;
+        font-size: 22px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 h4 {
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 20px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 p {
+        padding: 0 .5rem;
+        text-align: center;
+    }
+
+    .About-sec-part1 {
+        padding-top: 0.2rem;
+    }
+
+
+    #About-section1-0 {
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+    }
+
+    .sec-part1 {
+        padding-top: 0.4rem;
+        font-size: 19px;
+    }
+    .sec-part1-pera{
+        padding-bottom: 2rem;
+    }
+
+    .image-1 {
+        width: 17rem;
+        height: 18rem;
+        margin-left: 0rem;
+    }
+
+    .image-1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain1 {
+        border: 3px solid #0f5e9f;
+        width: 16.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 2.5rem;
+        z-index: -1;
+        padding-bottom: 10rem;
+    }
+
+    .image-column1 {
+        width: 28.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+    #About-section2 {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .About-section2-head {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        font-size: 20px !important;
+    }
+
+
+    .card-flyer {
+        width: 30%;
+        padding-top: 1.5rem;
+    }
+
+    .card-flyer .text-box .text-container {
+        padding: 10px 10px;
+    }
+
+    .card-flyer:hover {
+        margin-top: 10px;
+    }
+
+    .card-flyer .text-box p {
+        margin-top: 10px;
+    }
+
+    #About-section3 {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .About-section3-head {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+
+    .About-section3-head1 {
+        text-align: center;
+        font-weight: 400;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+
+    .blank {
+        padding-top: 2rem;
+    }
+    .About-section3-heighlight{
+        padding-top: 2rem;
+    }
+
+    .About-section3-heighlight1 {
+        width: 90% !important;
+        padding-top: 2rem;
+    }
+
+
+    .about-highlight {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+
+    }
+
+    #About-section4 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .About-section4-head {
+        font-size: 20px !important;
+    }
+
+    .pera-head p,
+    .pera-head strong {
+        padding: 0.5rem !important;
+    }
+    .pera-head{
+        padding: 1.5rem 0.3rem;
+    }
+
+
+
+    /* about page css end  */
+
+    /* How to reach page css end */
+
+    #Reach-section {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .reach-head-2 {
+        margin-top: 0.30em;
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+
+    .visit-underline {
+        width: 10%;
+        margin-left: 45%;
+        padding-bottom: 0.3rem;
+    }
+
+    .visit p {
+        padding: 0 0.7rem;
+    }
+
+    #Reach-section-2 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .Reach-heading-1 {
+        padding-bottom:2rem;
+        font-size: 22px;
+    }
+
+    .reach-box {
+        margin: 0 1%;
+        padding-bottom: 0.9rem;
+    }
+
+    .reach-img {
+        padding: 10px;
+    }
+
+    .header {
+        height: 22rem;
+    }
+
+    .reach-descrip {
+        padding: 70px 20px 10px !important;
+    }
+
+    .reach-descrip h4 {
+        letter-spacing: 2px;
+        font-size: 22px;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+
+
+    .dist-citiy {
+        font-size: 18px;
+        font-family: cormorant garamond;
+        font-weight: 500;
+        color: #fff;
+        font-style: normal;
+        margin-bottom: 0.1rem !important;
+    }
+
+    .dist-km {
+        font-size: 16px;
+        margin-bottom: 0rem !important;
+    }
+
+    .slider-inner {
+        margin-top: 0.5rem !important;
+    }
+
+    #Reach-section-3 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .Reach-section3-head2{
+        padding-top: 0.6rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #Reach-section-3 h5 {
+        font-size: 19px;
+    }
+
+    #Reach-section-3 h3 {
+        font-size: 22px;
+        padding-bottom: 1rem;
+    }
+
+    .visit-box {
+        padding-top: rem;
+    }
+
+    .visit-box h6 {
+        padding-left: 4rem;
+        padding-bottom: 0.3rem;
+        padding-top: 0.1rem;
+    }
+
+    .visit-box p {
+        padding-left: 4rem;
+        padding-top: 0.1rem;
+    }
+
+
+    /* How to reach css end */
+
+    /*Near by place  css start */
+
+    #nearbyplaces-1 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .nearby-heading {
+        font-size: 19px;
+    }
+
+    .place-heading1 h4 {
+        width: 180px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .place-heading2 h4 {
+        width: 180px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .place-heading3 h4 {
+        width: 260px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .place-heading4 h4 {
+        width: 290px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .near-main {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .place {
+        padding-top: 0.2rem;
+    }
+
+    .place-heading {
+        font-size: 19px !important;
+    }
+
+    .near-pera {
+        padding-top: 0.2rem;
+    }
+
+    .image-11 {
+        width: 17rem;
+        height: 18rem;
+        margin-left: 1rem;
+    }
+
+    .image-11 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain11 {
+        border: 3px solid #0f5e9f;
+        width: 16.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 3.5rem;
+        z-index: -1;
+    }
+
+    .image-column11 {
+        width: 18.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+
+    /* right   */
+
+
+
+    .imagemain12 {
+        border: 3px solid #0f5e9f;
+        width: 22.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 3rem;
+        z-index: -1;
+    }
+
+    .place1 {
+        padding-bottom: 6rem;
+    }
+
+    #nearby-2 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .nearby-sec2-head {
+        font-size: 20px;
+        padding-bottom: 1rem;
+    }
+
+    .near-img {
+        width: 100% !important;
+        height: 210px !important;
+    }
+
+    .heart {
+        top: 2%;
+        right: 0%;
+        padding-right: 1.5rem;
+    }
+
+    .heart span {
+        padding: 10px;
+    }
+
+    .near-decrs {
+        padding-top: 1rem;
+    }
+
+    .near-decrs h4 {
+        background-color: #ededed;
+        padding: 0.5rem;
+        font-size: 20px;
+    }
+
+    .near-decrs strong {
+        letter-spacing: 0;
+        width: 10px;
+    }
+
+    .near-decrs p {
+        margin-top: 2px;
+    }
+
+    .near-box {
+        padding-bottom: 0.5rem;
+    }
+
+    /* blog page css start  */
+    #blogtwo {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #blogtwo h3 {
+        font-size: 19px;
+    }
+
+    #blog-section1 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .blog-box-contant {
+        padding-top: 0.2rem !important;
+    }
+
+    .blog-box {
+        align-items: justify;
+    }
+
+    .blog-box h3 {
+        font-size: 18px !important;
+    }
+
+    .blog-date1 {
+        padding-top: 0.8rem !important;
+        font-size: 19px;
+    }
+
+    .blog-box p,
+    .blog-box strong {
+        padding-bottom: 0.5rem;
+    }
+
+    .blog-box2 {
+        padding-bottom: 0.2rem !important;
+    }
+
+    .mini-goa-left {
+        padding-top: 1rem;
+    }
+
+    .posts-heading h4 {
+        font-size: 20px;
+        padding: 0.5rem 1rem;
+    }
+
+    .Posts iframe {
+        width: 280px !important;
+    }
+
+    .Posts img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .Posts ul li {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .blogs-tags {
+        padding-top: 0.8rem !important;
+    }
+
+    /* blog page css end */
+
+    /* mini goa page css start  */
+    #Mini-goa {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .mini-goa img {
+        height: 25rem;
+    }
+
+    .mini-goa-heading h3 {
+        font-size: 20px;
+    }
+
+    .blog-date1 {
+        padding-top: 0.8rem;
+    }
+
+    .mini-goa p,
+    .mini-goa strong,
+    .open-time {
+        padding-bottom: 0.8rem;
+    }
+
+    .mini-goa-left {
+        padding-top: 0.8rem;
+    }
+
+
+    /* mini goa page css end */
+
+    /*blog2 page css start */
+    #blog2-section1 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #blog2-section1 h3 {
+        font-size: 19px !important;
+    }
+
+
+    /* blog2 page  page css end */
+
+    /* blog3 page css start */
+
+
+    #blog3-section1 {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+
+    #blog3-section1 h3 {
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+
+    .blog3-page h5 {
+        padding-top: 0.8rem;
+    }
+
+    .blog3-date {
+        padding-top: 0.8rem;
+    }
+
+    #blog3-section1 p {
+        padding-top: 0.8rem;
+    }
+
+    /* blog3 page css end */
+
+}
+
+@media only screen and (min-width:375px) and (max-width:424px) {
+    .logo {
+        padding-left: 0.5rem;
+    }
+
+    #home-section-1 {
+        height: 20rem;
+    }
+
+    .group {
+        height: 20rem;
+        max-width: 15rem;
+    }
+
+    .text {
+        padding: 0 1rem;
+    }
+
+    .main-heading {
+        font-size: 22px;
+    }
+
+    #section2 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section2-heading {
+        font-size: 22px;
+    }
+
+    .bookend {
+        margin: 10px auto;
+    }
+
+    .summary-box {
+        padding-top: 2rem;
+    }
+
+    .home-section-3 {
+        padding-top: 2rem;
+        padding-bottom: 6rem;
+    }
+    .impor-box{
+        padding-top: 1.3rem;
+    }
+    .impor-pera,
+    .content {
+        font-size: 15px !important;
+    }
+
+    .box {
+        padding-bottom: 4rem;
+    }
+    .box3{
+        padding-top: 2rem;
+    }
+    .box4{
+        padding-top: 3rem;
+    }
+
+    #section-4 {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .section-4-head {
+        font-size: 22px;
+    }
+
+    .gallery {
+        padding-top: 1.3rem;
+        display: block;
+    }
+
+    .box2 {
+        margin-bottom: 1.2em;
+    }
+
+    #home-section-5 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section6-head {
+        font-size: 22px;
+        padding-top: 0.3rem !important;
+    }
+    .section6-head p{
+        padding-top: 1.5rem !important;
+    }
+    .section6-head h3 {
+        font-size: 22px;
+    }
+
+    .card-home {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .card2-home {
+        padding-top: 0.9rem;
+    }
+
+    #section5 {
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+
+    .footer-heading {
+        padding-top: 1.5rem;
+        font-size: 20px;
+    }
+
+    .home-footer {
+        padding-top: 0.8rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid #fff;
+    }
+
+    .icon {
+        padding-right: 1rem;
+    }
+
+
+    .footer-pera {
+        padding-top: 0.2rem;
+        margin-bottom: 0rem;
+    }
+
+    .map {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .map iframe{
+        width: 22rem;
+    }
+
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    /* about page css start  */
+
+    #About-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        /* background-color: rgb(226, 239, 245); */
+    }
+
+    .about1 h3 {
+        text-align: center;
+        color: #0f5e9f;
+        font-size: 22px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 h4 {
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 20px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 p {
+        padding: 0 .5rem;
+        text-align: center;
+    }
+
+    .About-sec-part1 {
+        padding-top: 0.2rem;
+    }
+
+
+    #About-section1-0 {
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+    }
+
+    .sec-part1 {
+        padding-top: 0.4rem;
+        font-size: 19px;
+    }
+    .sec-part1-pera{
+        padding-bottom: 2rem;
+    }
+
+    .image-1 {
+        width: 17rem;
+        height: 18rem;
+        margin-left: 1rem;
+    }
+
+    .image-1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain1 {
+        border: 3px solid #0f5e9f;
+        width: 17.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 3.5rem;
+        z-index: -1;
+        padding-bottom: 10rem;
+    }
+
+    .image-column1 {
+        width: 28.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+    #About-section2 {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .About-section2-head {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        font-size: 20px !important;
+    }
+
+
+    .card-flyer {
+        width: 30%;
+        padding-top: 1.8rem;
+    }
+
+    .card-flyer .text-box .text-container {
+        padding: 10px 10px;
+    }
+
+    .card-flyer:hover {
+        margin-top: 10px;
+    }
+
+    .card-flyer .text-box p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    #About-section3 {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .About-section3-head {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-style: normal;
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .About-section3-head1 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 19px;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+    
+    .blank {
+        padding-top: 2rem;
+    }
+    .About-section3-heighlight{
+        padding-top: 2rem;
+    }
+    .About-section3-heighlight1 {
+        width: 90% !important;
+        padding-top: 2rem;
+    }
+    .about-highlight {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    #About-section4 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .About-section4-head {
+        font-size: 20px !important;
+    }
+
+    .pera-head p,
+    .pera-head strong {
+        padding: 0.5rem !important;
+    }
+    .pera-head{
+        padding: 1.5rem 0.3rem;
+    }
+    /* about page css end  */
+
+
+    /* How to reach page css end */
+
+    #Reach-section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .reach-head-2 {
+        margin-top: 0.30em;
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+
+    .visit-underline {
+        width: 8%;
+        margin-left: 47%;
+        padding-bottom: 0.5rem;
+    }
+
+    .visit p {
+        padding: 0 0.7rem;
+    }
+
+    #Reach-section-2 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .Reach-heading-1 {
+        padding-bottom: 1rem;
+        font-size: 22px;
+    }
+
+    .reach-box {
+        margin: 0 1%;
+        padding-bottom: 1rem;
+    }
+
+    .reach-img {
+        padding: 10px;
+    }
+
+    .header {
+        height: 22rem;
+    }
+
+    .reach-descrip {
+        padding: 70px 20px 5px !important;
+    }
+
+    .reach-descrip h4 {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .dist-citiy {
+        font-size: 18px;
+        font-family: cormorant garamond;
+        font-weight: 500;
+        color: #fff;
+        font-style: normal;
+        margin-bottom: 0.1rem !important;
+    }
+
+    .dist-km {
+        font-size: 18px;
+        margin-bottom: 0rem !important;
+    }
+
+    .slider-inner {
+        margin-top: 0.5rem !important;
+    }
+
+    #Reach-section-3 {
+        padding-top: 1rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    #Reach-section-3 h5 {
+        font-size: 20px;
+    }
+
+    #Reach-section-3 h3 {
+        font-size: 22px;
+        padding-bottom: 1rem;
+    }
+
+    .visit-box {
+        padding-top: 0.1rem;
+    }
+
+    .visit-box h6 {
+        padding-left: 4rem;
+        padding-bottom: 0rem;
+        padding-top: 0.5rem;
+    }
+
+    .visit-box p {
+        padding-left: 4rem;
+        font-size: 18px;
+        padding-top: 0.5rem;
+    }
+
+    /* How to reach css end */
+
+    /*Near by place  css start */
+
+    #nearbyplaces-1 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .nearby-heading {
+        font-size: 19px;
+    }
+
+    .place-heading1 h4 {
+        width: 180px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .place-heading2 h4 {
+        width: 180px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .place-heading3 h4 {
+        width: 260px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .place-heading4 h4 {
+        width: 290px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .near-main {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .place {
+        padding-top: 0.2rem;
+    }
+
+    .place-heading {
+        font-size: 19px !important;
+    }
+
+    .near-pera {
+        padding-top: 0.2rem;
+    }
+
+    .image-11 {
+        width: 17rem;
+        height: 18rem;
+        margin-left: 1rem;
+    }
+
+    .image-11 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain11 {
+        border: 3px solid #0f5e9f;
+        width: 16.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 3.5rem;
+        z-index: -1;
+    }
+
+    .image-column11 {
+        width: 18.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+
+    /* right   */
+
+
+
+    .imagemain12 {
+        border: 3px solid #0f5e9f;
+        width: 22.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 3rem;
+        z-index: -1;
+    }
+
+    .place1 {
+        padding-bottom: 6rem;
+    }
+
+    #nearby-2 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .nearby-sec2-head {
+        font-size: 20px;
+        padding-bottom: 1rem;
+    }
+
+    .near-img {
+        width: 100% !important;
+        height: 210px !important;
+    }
+
+    .heart {
+        top: 2%;
+        right: 0%;
+        padding-right: 1.5rem;
+    }
+
+    .heart span {
+        padding: 10px;
+    }
+
+    .near-decrs {
+
+        padding-top: 1rem;
+    }
+
+    .near-decrs h4 {
+        font-size: 20px;
+        background-color: #ededed;
+        padding: 0.5rem;
+    }
+
+    .near-decrs strong {
+        letter-spacing: 0;
+        width: 10px;
+    }
+
+    .near-decrs p {
+        margin-top: 2px;
+    }
+
+    .near-box {
+        padding-bottom: 0.5rem;
+    }
+
+    /* blog page css start  */
+    #blogtwo {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #blogtwo h3 {
+        font-size: 19px;
+    }
+
+    #blog-section1 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .blog-box-contant {
+        padding-top: 0.2rem !important;
+    }
+
+    .blog-box {
+        align-items: justify;
+    }
+
+    .blog-box h3 {
+        font-size: 20px !important;
+    }
+
+    .blog-date1 {
+        padding-top: 0.8rem;
+        font-size: 19px;
+    }
+
+    .blog-box p,
+    .blog-box strong {
+        padding-bottom: 0.5rem;
+    }
+
+    .blog-box2 {
+        padding-bottom: 0.2rem !important;
+    }
+
+    .mini-goa-left {
+        padding-top: 1rem;
+    }
+
+    .posts-heading h4 {
+        font-size: 20px;
+        padding: 0.5rem 1rem;
+    }
+
+    .Posts iframe {
+        width: 330px !important;
+    }
+
+    .Posts img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .Posts ul li {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .blogs-tags {
+        padding-top: 0.8rem !important;
+    }
+
+    /* mini goa page css end */
+
+
+    /*blog2 page css start */
+    #blog2-section1 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #blog2-section1 h3 {
+        font-size: 20px !important;
+    }
+
+
+
+    /* blog2 page  page css end */
+
+
+    /* blog3 page css start */
+
+
+    #blog3-section1 {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+
+    #blog3-section1 h3 {
+        font-size: 22px;
+        padding-top: 1rem;
+    }
+
+    .blog3-page h5 {
+        padding-top: 0.8rem;
+    }
+
+    .blog3-date {
+        padding-top: 0.8rem;
+    }
+
+    #blog3-section1 p {
+        padding-top: 0.8rem;
+    }
+
+    /* blog3 page css end */
+
+
+}
+
+@media only screen and (min-width:425px) and (max-width:767px) {
+    .logo {
+        padding-left: 0.5rem;
+    }
+
+    #home-section-1 {
+        height: 20rem;
+    }
+
+    .group {
+        height: 20rem;
+        max-width: 16rem;
+    }
+
+    .text {
+        padding: 0 1rem;
+    }
+
+    .main-heading {
+        font-size: 28px;
+    }
+
+    #section2 {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .section2-heading {
+        font-size: 22px;
+    }
+
+    .bookend {
+        margin: 10px auto;
+    }
+
+    .summary-box {
+        padding-top: 2rem;
+    }
+
+    .home-section-3 {
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+    }
+
+    .home-section3-heading {
+        font-size: 22px;
+    }
+    .impor-box{
+        padding-top: 2rem;
+        padding-bottom: 1.3rem;
+    }
+    .impor-pera,
+    .content {
+        font-size: 16px !important;
+    }
+
+    .box {
+        padding-bottom: 3rem;
+    }
+    .box3,.box4{
+        padding-top: 2rem;
+    }
+
+    #section-4 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section-4-head {
+        font-size: 22px;
+    }
+
+    .gallery {
+        padding-top:1.5rem;
+        display: block;
+    }
+    .section4-pera {
+        padding:0.5rem;
+    }
+
+    .box2 {
+        margin-bottom: 1em;
+    }
+
+    #home-section-5 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section6-head {
+        font-size: 22px;
+        padding-top: 0.3rem !important;
+    }
+    
+    .section6-head p{
+        padding: 1.5rem 0.3rem!important;
+    }
+
+    .section6-head h3 {
+        font-size: 22px;
+    }
+
+    .card-home {
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .card2-home {
+        padding-top: 0.9rem;
+    }
+
+    #section5 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .section5-heading {
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+    }
+
+    .section5-box {
+        padding-bottom: 1rem;
+    }
+
+    .home-footer {
+        padding-top: 1rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid #fff;
+    }
+
+    .icon {
+        padding-right: 1rem;
+    }
+
+    .footer-heading {
+        padding-top: 2rem;
+    }
+
+    .footer-pera {
+        padding-top: 0.2rem;
+        margin-bottom: 0rem;
+    }
+
+    .map {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
+    }
+    .map iframe{
+        width: 25rem;
+    }
+
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    /* about page css start  */
+
+    #About-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        /* background-color: rgb(226, 239, 245); */
+    }
+
+    .about1 h3 {
+        text-align: center;
+        color: #0f5e9f;
+        font-size: 22px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 h4 {
+        padding-top: 1rem;
+        font-size: 20px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 p {
+        padding: 0 .5rem;
+    }
+
+    .About-sec-part1 {
+        padding-top: 0.2rem;
+    }
+
+    #About-section1-0 {
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+    }
+
+    .sec-part1 {
+        padding-top: 0.4rem;
+        font-size: 20px;
+    }
+    .sec-part1-pera{
+        padding-bottom: 2rem;
+    }
+
+    .image-1 {
+        width: 19rem;
+        height: 18rem;
+        margin-left: 1rem;
+    }
+
+    .image-1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain1 {
+        border: 3px solid #0f5e9f;
+        width: 19.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 3.5rem;
+        z-index: -1;
+        padding-bottom: 10rem;
+    }
+
+    .image-column1 {
+        width: 28.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+    #About-section2 {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .About-section2-head {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        font-size: 22px !important;
+    }
+
+
+    .card-flyer {
+        width: 30%;
+        padding-top: 1.8rem;
+    }
+
+    .card-flyer .text-box .text-container {
+        padding: 10px 10px;
+    }
+
+    .card-flyer:hover {
+        margin-top: 10px;
+    }
+
+    .card-flyer .text-box p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    #About-section3 {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .About-section3-head {
+        font-size: 22px;
+        text-align: center;
+        font-weight: 600;
+        font-style: normal;
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .About-section3-head1 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 19px;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+
+    .blank {
+        padding-top: 2rem;
+    }
+    .About-section3-heighlight{
+        padding-top: 2rem;
+    }
+    .About-section3-heighlight1 {
+        width: 90% !important;
+        padding-top: 2rem;
+    }
+
+
+    .about-highlight {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+
+    }
+
+    #About-section4 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .About-section4-head {
+        font-size: 20px !important;
+    }
+
+ 
+    .pera-head p,
+    .pera-head strong {
+        padding: 0.5rem !important;
+    }
+    .pera-head{
+        padding: 1.5rem 0.3rem;
+    }
+
+    /* about page css end  */
+
+
+    /* How to reach page css end */
+
+    #Reach-section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .reach-head-2 {
+        margin-top: 0.50em;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .visit-underline {
+        width: 8%;
+        margin-left: 47%;
+        padding-bottom: 0.5rem;
+    }
+
+    .visit p {
+        padding: 0 0.7rem;
+    }
+
+    #Reach-section-2 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .Reach-heading-1 {
+        padding-bottom: 2rem;
+        font-size: 22px;
+    }
+
+    .reach-box {
+        margin: 0 1%;
+        padding-bottom: 2rem;
+    }
+
+    .reach-img {
+        padding: 10px;
+    }
+
+    .reach-descrip {
+        padding: 70px 20px 10px !important;
+    }
+
+    .reach-descrip h4 {
+        font-size: 20px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .reach-descrip p {
+        line-height: 19px;
+        font-size: 18px;
+
+    }
+
+    .header {
+        height: 22rem;
+    }
+
+    .dist-citiy {
+        font-size: 20px;
+        font-family: cormorant garamond;
+        font-weight: 500;
+        color: #fff;
+        font-style: normal;
+        margin-bottom: 0.1rem !important;
+    }
+
+    .dist-km {
+        font-size: 18px;
+        padding-top: 0rem;
+        margin-bottom: 0rem !important;
+    }
+
+    .slider-inner {
+        margin-top: 0.3rem !important;
+    }
+
+    #Reach-section-3 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    #Reach-section-3 h5 {
+        font-size: 20px;
+    }
+    .Reach-section3-head2{
+        padding-top: 0.6rem;
+        padding-bottom: 1.5rem;
+    }
+    #Reach-section-3 h3 {
+        font-size: 22px;
+        padding-bottom: 1rem;
+    }
+
+    .visit-box {
+        padding-top: 0.5rem;
+    }
+
+    .visit-box h6 {
+        padding-left: 4rem;
+        padding-bottom: 0rem;
+        padding-top: 0.5rem;
+    }
+
+    .visit-box p {
+        padding-left: 4rem;
+        padding-top: 0.1rem;
+    }
+
+    /* How to reach css end */
+
+    /*Near by place  css start */
+
+    #nearbyplaces-1 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .nearby-heading {
+        font-size: 22px;
+        padding-top: 1rem;
+        padding-bottom: 0.8rem;
+    }
+
+    .place-heading1 h4 {
+        width: 180px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading2 h4 {
+        width: 190px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading3 h4 {
+        width: 270px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading4 h4 {
+        width: 310px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .near-main {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .place {
+        padding-top: 1.5rem;
+    }
+
+    .place-heading {
+        font-size: 19px !important;
+    }
+
+    .near-pera {
+        padding-top: 0.2rem;
+    }
+
+    .image-11 {
+        width: 19rem;
+        height: 18rem;
+        margin-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .image-11 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain11 {
+        border: 3px solid #0f5e9f;
+        width: 19.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 3.5rem;
+        z-index: -1;
+    }
+
+    .image-column11 {
+        width: 19.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+
+    /* right   */
+
+
+
+    .imagemain12 {
+        border: 3px solid #0f5e9f;
+        width: 22.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 3rem;
+        z-index: -1;
+    }
+
+    .place1 {
+        padding-bottom: 6rem;
+    }
+
+    #nearby-2 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .nearby-sec2-head {
+        font-size: 20px;
+        padding-bottom: 2rem;
+    }
+
+    .near-img {
+        width: 100% !important;
+        height: 210px !important;
+    }
+
+    .heart {
+        top: 2%;
+        right: 0%;
+        padding-right: 1.5rem;
+    }
+
+    .heart span {
+        padding: 10px;
+    }
+
+    .near-decrs {
+        padding-top: 1rem;
+    }
+
+    .near-decrs h4 {
+        font-size: 20px;
+        background-color: #ededed;
+        padding: 0.5rem;
+    }
+
+    .near-decrs strong {
+        letter-spacing: 0;
+        width: 10px;
+    }
+
+    .near-decrs p {
+        margin-top: 2px;
+    }
+
+    .near-box {
+        padding-bottom: 1.5rem;
+    }
+
+    /* blog page css start  */
+    #blogtwo {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #blog-section1 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .blog-box-contant {
+        padding-top: 0.2rem !important;
+    }
+
+    .blog-box {
+        align-items: justify;
+    }
+
+    .blog-box h3 {
+        font-size: 22px !important;
+    }
+
+    .blog-date1 {
+        padding-top: 0.8rem;
+        font-size: 19px;
+    }
+
+    .blog-box p,
+    .blog-box strong {
+        padding-bottom: 0.5rem;
+    }
+
+    .blog-box2 {
+        padding-bottom: 0.2rem !important;
+    }
+
+    .mini-goa-left {
+        padding-top: 1rem;
+    }
+
+    .posts-heading h4 {
+        font-size: 20px;
+        padding: 0.5rem 1rem;
+    }
+
+    .Posts iframe {
+        width: 380px !important;
+    }
+
+    .Posts img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .Posts ul li {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .blogs-tags {
+        padding-top: 0.8rem !important;
+    }
+
+    /* blog page css end */
+
+
+
+    /* mini goa page css start  */
+    #Mini-goa {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .mini-goa img {
+        height: 25rem;
+    }
+
+    .mini-goa-heading h3 {
+        font-size: 20px;
+    }
+
+    .blog-date1 {
+        padding-top: 0.8rem;
+    }
+
+    .mini-goa p,
+    .mini-goa strong,
+    .open-time {
+        padding-bottom: 0.3rem;
+    }
+
+    .mini-goa-left {
+        padding-top: 0.8rem;
+    }
+
+    /* mini goa page css end */
+
+    /* blog2 page css start */
+
+    #blog2-section1 {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .blog2-page h3 {
+        font-size: 20px;
+    }
+
+    #blog2-section1 p {
+        padding-top: 1rem;
+    }
+
+
+    /* blog2 page css end */
+
+
+    /* blog3 page css start */
+
+
+    #blog3-section1 {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+
+    #blog3-section1 h3 {
+        font-size: 22px;
+        padding-top: 1rem;
+    }
+
+    .blog3-page h5 {
+        padding-top: 0.8rem;
+    }
+
+    .blog3-date {
+        padding-top: 0.8rem;
+    }
+
+    #blog3-section1 p {
+        padding-top: 0.8rem;
+    }
+
+    /* blog3 page css end */
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .logo {
+        padding-left: 1rem;
+    }
+
+    #home-section-1 {
+        height: 20rem;
+    }
+
+    #header ul a {
+        margin: 0.2rem;
+        font-size: 18px;
+    }
+
+    .group {
+        height: 20rem;
+        max-width: 15rem;
+    }
+
+    .text {
+        padding: 0 1rem;
+    }
+
+    .main-heading {
+        font-size: 28px;
+    }
+
+    .main-pera {
+        font-size: 14px;
+    }
+
+    #section2 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .section2-heading {
+        font-size: 28px;
+    }
+
+    .bookend {
+        margin: 10px auto;
+    }
+    .home-sec-2-main{
+        padding-bottom: 2rem;
+    }
+    .summary-1 {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .card img {
+        height: 200px !important;
+    }
+
+    .home-section-3 {
+        padding-top: 2rem;
+        padding-bottom: 6rem;
+    }
+
+    .impor-box {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .home-section3-heading {
+        font-size: 28px;
+    }
+
+    .box {
+        padding-bottom: 2rem;
+    }
+    .box3,.box4{
+        padding-top: 2rem;
+    }
+
+    #section-4 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .section-4-head {
+        font-size: 28px;
+    }
+
+    .full-span-column {
+        grid-column: 1 / span 2;
+        grid-row: span 1;
+    }
+
+    .gallery {
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #home-section-5 {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .section6-head {
+        font-size: 22px;
+        padding-top: 0.3rem !important;
+        padding-bottom: 1rem;
+    }
+
+    .section6-head h3 {
+        font-size: 28px;
+    }
+    .section6-head p {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .card-home {
+        padding-top: 1rem;
+    }
+
+    .card2-home {
+        padding-top: 6rem;
+
+    }
+
+    #section5 {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .section5-heading {
+        font-size: 1rem;
+        padding-top: 0.5rem;
+    }
+
+    .section5-box {
+        padding-bottom: 1rem;
+    }
+
+    .home-footer {
+        padding-top: 0.3rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #fff;
+    }
+
+    .icon {
+        padding-right: 1rem;
+    }
+
+    .footer-heading {
+        padding-top: 2rem;
+    }
+
+    .footer-pera {
+        padding-top: 0.2rem;
+        font-size: 16px;
+        margin-bottom: 0rem;
+    }
+
+    .map {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .map iframe {
+        width: 190px;
+        height: 180px;
+    }
+
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    /* about page css start  */
+
+    #About-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        /* background-color: rgb(226, 239, 245); */
+    }
+
+    .about1 h3 {
+        text-align: center;
+        color: #0f5e9f;
+        font-size: 25px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 h4 {
+        padding-top: 1rem;
+        font-size: 22px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 p {
+        padding: 0 .5rem;
+    }
+
+    .About-sec-part1 {
+        padding-top: 0.2rem;
+    }
+
+    #About-section1-0 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .sec-part1 {
+        padding-top: 0.4rem;
+        font-size: 22px;
+    }
+
+    .image-1 {
+        width: 17rem;
+        height: 18rem;
+        margin-left: 1rem;
+    }
+
+    .image-1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain1 {
+        border: 3px solid #0f5e9f;
+        width: 17.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 3.5rem;
+        z-index: -1;
+        padding-bottom: 10rem;
+    }
+
+    .image-column1 {
+        width: 28.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+    #About-section2 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .About-section2-head {
+        padding-bottom: 2.5rem;
+        font-size: 25px !important;
+    }
+
+
+    .card-flyer {
+        width: 30%;
+    }
+
+    .card-flyer .text-box .text-container {
+        padding: 10px 10px;
+    }
+
+    .card-flyer:hover {
+        margin-top: 10px;
+    }
+
+    .card-flyer .text-box p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    #About-section3 {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .About-section3-head {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 600;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+
+    .About-section3-head1 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 19px;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+
+    .blank {
+        padding-top: 2rem;
+    }
+
+    .About-section3-heighlight1 {
+        padding-top: 2rem!important;
+        width: 100% !important;
+    }
+
+
+    .about-highlight {
+        padding-top: 1.5rem!important;
+
+    }
+
+    #About-section4 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .About-section4-head {
+        font-size: 25px !important;
+    }
+
+ 
+    .pera-head p,
+    .pera-head strong {
+        padding: 0.5rem !important;
+    }
+    .pera-head{
+        padding: 2rem 0.3rem;
+    }
+
+    /* about page css end  */
+
+    /* How to reach page css end */
+
+    #Reach-section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .reach-head-2 {
+        margin-top: 0.45em;
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .visit-underline {
+        width: 8%;
+        margin-left: 47%;
+        padding-bottom: 0.7rem;
+    }
+
+    .visit p {
+        text-align: center;
+        padding: 0 0.9rem;
+    }
+
+    #Reach-section-2 {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .Reach-heading-1 {
+        padding-bottom: 3rem;
+        font-size: 28px;
+    }
+
+    .reach-box {
+        width: 30% !important;
+        margin: 0 1.3%;
+    }
+
+    .reach-img {
+        padding: 10px;
+    }
+
+    .reach-descrip {
+        padding: 70px 20px 10px !important;
+    }
+
+    .reach-descrip h4 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .reach-descrip p {
+        line-height: 19px;
+        font-size: 18px;
+
+    }
+
+    .header {
+        height: 15rem;
+    }
+
+    #Reach-section-3 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+    .Reach-section3-head2{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .visit-box {
+        padding-top: 2rem;
+    }
+
+    .visit-box h6,
+    .visit-box p {
+        font-size: 20px;
+        padding-left: 4rem;
+        padding-bottom: 0.1rem;
+        padding-top: 0rem;
+    }
+
+    .visit-box p {
+        font-size: 19px;
+    }
+
+
+    /* How to reach css end */
+
+    /*Near by place  css start */
+
+    #nearbyplaces-1 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .nearby-heading {
+        font-size: 25px;
+        padding-top: 1rem;
+    }
+
+    .place-heading1 h4 {
+        width: 180px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading2 h4 {
+        width: 190px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading3 h4 {
+        width: 270px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading4 h4 {
+        width: 310px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .near-main {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .place {
+        padding-top: 0.2rem;
+    }
+
+    .place-heading {
+        font-size: 19px !important;
+    }
+
+    .near-pera {
+        padding-top: 0.2rem;
+    }
+
+    .image-11 {
+        width: 17rem;
+        height: 18rem;
+        margin-left: 0rem;
+        margin-top: 0.1rem;
+    }
+
+    .image-11 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain11 {
+        border: 3px solid #0f5e9f;
+        width: 16.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 1rem;
+        left: 2rem;
+        z-index: -1;
+    }
+
+    .image-column11 {
+        width: 18.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+
+    /* right   */
+
+
+
+
+    .place1 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    #nearby-2 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .nearby-sec2-head {
+        font-size: 25px;
+        padding-bottom: 1rem;
+    }
+
+    .near-img {
+        width: 100% !important;
+        height: 210px !important;
+    }
+
+    .heart {
+        top: 2%;
+        right: 0%;
+        padding-right: 1.5rem;
+    }
+
+    .heart span {
+        padding: 10px;
+    }
+
+    .near-decrs {
+        padding-top: 1rem;
+    }
+
+    .near-decrs h4 {
+        font-size: 17px;
+        letter-spacing: 0px;
+        background-color: #ededed;
+        padding: 0.5rem;
+    }
+
+    .near-decrs strong {
+        font-size: 15px;
+        letter-spacing: 0;
+        width: 20px;
+    }
+
+    .near-decrs p {
+        margin-top: 2px;
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+
+    .near-box {
+        padding-bottom: 0.5rem;
+    }
+
+    /* near by place css end */
+
+    /* blog page css start  */
+    #blogtwo {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+
+    .blog-main-pera {
+        font-size: 19px;
+        padding: 0rem 2rem;
+    }
+
+    #blog-section1 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .blog-box-contant {
+        padding-top: 0.5rem !important;
+    }
+
+    .blog-box {
+        align-items: justify;
+    }
+
+    .blog-box h3 {
+        font-size: 25px !important;
+    }
+
+    .blog-date1 {
+        font-size: 19px;
+    }
+
+    .blog-box2 {
+        padding-bottom: 0.5rem !important;
+    }
+    .Popular-Posts-name{
+        font-size: 16px;
+    }
+    .mini-goa-left {
+        padding-top: 1rem;
+    }
+
+    .mini-goa-left p {
+        font-size: 19px;
+    }
+
+    .flexsearch--input {
+        font-size: 20px;
+    }
+
+    .posts-heading h4 {
+        font-size: 19px;
+        padding: 0.2rem 1rem;
+    }
+
+    .Posts img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+
+    .Posts ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .Posts iframe {
+        width: 220px !important;
+    }
+
+    .blogs-tags {
+        padding-top: 0.8rem !important;
+    }
+
+
+    /* blog page css end  */
+
+
+    /* mini goa page css start  */
+    #Mini-goa {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .mini-goa img {
+        height: 25rem;
+    }
+
+    .mini-goa-heading h2 {
+        font-size: 28px;
+    }
+
+    .blog-date1 {
+        padding-top: 0.8rem;
+
+        font-size: 20px;
+    }
+
+    .mini-goa p,
+    .mini-goa strong,
+    .open-time {
+        padding-bottom: 1rem;
+    }
+
+
+    .mini-goa-left {
+        padding-top: 0.8rem;
+    }
+
+    /* mini goa page css end */
+
+    /* blog2 page css start */
+
+    #blog2-section1 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .blog2-page h3 {
+        font-size: 22px !important;
+    }
+
+    /* blog2 page css end */
+    /* blog3 page css start */
+
+    #blog3-section1 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+
+    #blog3-section1 h3 {
+        font-size: 25px;
+        padding-top: 1rem;
+    }
+
+    .blog3-page h5 {
+        padding-top: 0.8rem;
+    }
+
+    .blog3-date {
+        padding-top: 0.8rem;
+    }
+
+    #blog3-section1 p {
+        padding-top: 0.8rem;
+    }
+
+
+    /* blog3 page css end */
+
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+    .logo {
+        padding-left: 4rem;
+
+    }
+
+    #home-section-1 {
+        height: 35rem;
+    }
+
+    #header ul a {
+        margin: 1rem;
+        font-size: 20px;
+    }
+
+    .group {
+        height: 35rem;
+        max-width: 30rem;
+    }
+
+    .text {
+        padding: 0 2rem;
+    }
+
+    .main-heading {
+        font-size: 35px;
+    }
+
+    .main-pera {
+        padding-top: 2rem;
+    }
+
+    #section2 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .section2-heading {
+        font-size: 28px;
+    }
+
+    .bookend {
+        margin: 10px auto;
+    }
+
+    .home-sec-2-main {
+        padding-bottom: 2rem;
+    }
+
+    .summary-1 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+
+
+    .home-section-3 {
+        padding-top: 4rem;
+        padding-bottom: 7rem;
+    }
+
+    .home-section3-heading {
+        font-size: 30px;
+    }
+
+    .impor-box {
+        padding-top: 3rem;
+    }
+
+    .box {
+        padding-top: 2rem;
+    }
+
+    #section-4 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+
+
+    .section-4-head {
+        font-size: 30px;
+    }
+
+    .full-span-column {
+        grid-column: 1 / span 2;
+        grid-row: span 1;
+    }
+
+    .gallery {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    #home-section-5 {
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+
+    .section6-head {
+        font-size: 22px;
+        padding-bottom: 3rem !important;
+
+    }
+
+    .section6-head p {
+        padding-top: 1.8rem;
+    }
+
+    .section6-head h3 {
+        font-size: 28px;
+    }
+
+    .card-home {
+        padding-top: 1rem;
+    }
+
+    .card2-home {
+        padding-top: 6rem;
+
+    }
+
+    #section5 {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .section5-heading {
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+    }
+
+    .section5-box {
+        padding-bottom: 1rem;
+    }
+
+    .home-footer {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 19px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .icon {
+        padding-right: 1rem;
+    }
+
+    .footer-heading {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-size: 22px;
+    }
+
+    .footer-pera {
+        padding-top: 1.5rem;
+        margin-bottom: 0rem;
+        font-size: 19px;
+    }
+
+    .map {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .map iframe {
+        width: 280px;
+        height: 180px;
+    }
+
+    footer {
+        padding-bottom: 1rem;
+    }
+
+    /* about page css start  */
+    #About-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        /* background-color: rgb(226, 239, 245); */
+    }
+
+    .about1 h3 {
+        font-size: 28px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 h4 {
+        padding-top: 1rem;
+        font-size: 22px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 p {
+        padding: 0 .5rem;
+    }
+
+    .About-sec-part1 {
+        padding-top: 0.2rem;
+    }
+
+    #About-section1-0 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .sec-part1 {
+        padding-top: 0.6rem;
+        padding-bottom: 0.4rem;
+        font-size: 25px;
+    }
+
+    .image-1 {
+        width: 22rem;
+        height: 18rem;
+        margin-left: 2rem;
+    }
+
+    .image-1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain1 {
+        border: 3px solid #0f5e9f;
+        width: 22.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 5.5rem;
+        z-index: -1;
+        padding-bottom: 10rem;
+    }
+
+    .image-column1 {
+        width: 28.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+    #About-section2 {
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+    .About-section2-head {
+        padding-bottom: 4rem;
+        font-size: 28px !important;
+    }
+
+
+    .card-flyer {
+        width: 30%;
+    }
+
+    .card-flyer .text-box .text-container {
+        padding: 10px 10px;
+    }
+
+    .card-flyer:hover {
+        margin-top: 10px;
+    }
+
+    .card-flyer .text-box p {
+        margin-top: 10px;
+        font-size: 19px;
+        letter-spacing: 0px !important;
+    }
+
+    #About-section3 {
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+
+    .About-section3-head {
+        font-size: 28px;
+        text-align: center;
+        font-weight: 600;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+
+    .About-section3-head1 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 19px;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+
+    .blank {
+        padding-top: 2rem;
+    }
+    .About-section3-heighlight,.about-highlight {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .About-section3-heighlight1 {
+        width: 100% !important;
+        padding-top: 2rem;
+    }
+
+
+    .about-highlight {
+        padding-top: 1.5rem;
+
+    }
+
+    #About-section4 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .About-section4-head {
+        font-size: 25px !important;
+    }
+
+    .pera-head,
+    .pera-head p,
+    .pera-head strong {
+        padding: 0.5rem !important;
+    }
+    .pera-head{
+        padding-top: 1rem!important;
+        padding-bottom: 3rem!important;
+    }
+
+    /* about page css end */
+
+
+    /* How to reach page css end */
+
+    #Reach-section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .reach-head-2 {
+        margin-top: 0.55em;
+        font-size: 28px;
+        margin-bottom: 28px;
+    }
+
+    .visit-underline {
+        width: 7%;
+        margin-left: 47%;
+        padding-bottom: 1rem;
+    }
+
+    .visit p {
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    #Reach-section-2 {
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .Reach-heading-1 {
+        padding-bottom: 3rem;
+        font-size: 28px;
+
+    }
+
+    .reach-box {
+        width: 30% !important;
+        margin: 0 1.5%;
+    }
+
+    .reach-img {
+        padding: 10px;
+    }
+
+    .reach-descrip h4 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .reach-descrip p {
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .header {
+        height: 20rem;
+    }
+
+    .dist-citiy {
+        font-size: 28px;
+        line-height: 1.1;
+        letter-spacing: 0;
+        font-family: cormorant garamond;
+        font-weight: 500;
+        color: #fff;
+        font-style: normal;
+        padding-top: 2rem;
+    }
+
+    .dist-km {
+        font-size: 22px;
+    }
+
+    #Reach-section-3 {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+
+    .Reach-section3-head {
+        font-size: 21px;
+    }
+
+    .Reach-section3-head2 {
+        font-size: 28px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .visit-box {
+        padding-top: 4rem;
+    }
+
+    .visit-box p {
+        padding-left: 4rem;
+        padding-bottom: 0rem;
+        padding-top: 0.1rem;
+    }
+
+    .visit-box h6 {
+        padding-left: 4rem;
+        padding-bottom: 0rem;
+        padding-top: 0.1rem;
+        font-size: 20px;
+    }
+
+    /* How to reach css end */
+
+
+    /*Near by place  css start */
+
+    #nearbyplaces-1 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .nearby-heading {
+        font-size: 28px;
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .place-heading1 h4 {
+        width: 180px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading2 h4 {
+        width: 190px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading3 h4 {
+        width: 270px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading4 h4 {
+        width: 310px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .near-main {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .place {
+        padding-top: 0.2rem;
+    }
+
+    .place-heading {
+        font-size: 19px !important;
+    }
+
+    .near-pera {
+        padding-top: 0.2rem;
+    }
+
+    .image-11 {
+        width: 23rem;
+        height: 18rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .image-11 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain11 {
+        border: 3px solid #0f5e9f;
+        width: 23.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+        z-index: -1;
+    }
+
+    .image-column11 {
+        width: 23.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+
+    /* right   */
+
+
+
+
+    .place1 {
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    #nearby-2 {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .nearby-sec2-head {
+        font-size: 28px;
+        padding-bottom: 4rem;
+    }
+
+    .near-img {
+        width: 100% !important;
+        height: 210px !important;
+    }
+
+    .heart {
+        top: 2%;
+        right: 0%;
+        padding-right: 1.5rem;
+    }
+
+    .heart span {
+        padding: 10px;
+    }
+
+    .near-decrs {
+        padding-top: 1rem;
+    }
+
+    .near-decrs h4 {
+        background-color: #ededed;
+        padding: 0.5rem;
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+
+    .near-decrs strong {
+        font-size: 19px;
+        letter-spacing: 0;
+        width: 20px;
+    }
+
+    .near-decrs p {
+        margin-top: 2px;
+        font-size: 19px;
+        letter-spacing: 0px;
+    }
+
+    .near-box {
+        padding-bottom: 0.5rem;
+    }
+
+    /* near by place css end */
+
+
+    /* blog page css start  */
+    #blogtwo {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+    }
+
+    .blog-main-pera {
+        padding: 0rem 3rem;
+    }
+
+    #blog-section1 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .blog-box-contant {
+        padding-top: 0.5rem !important;
+    }
+
+    .blog-box {
+        align-items: justify;
+    }
+
+    .blog-box h3 {
+        font-size: 28px;
+    }
+
+
+    .mini-goa-left {
+        padding-top: 1.5rem;
+    }
+
+
+    .posts-heading h4 {
+        font-size: 21px;
+        padding: 0.2rem 1rem;
+    }
+
+    .Posts img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .Posts ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .Posts iframe {
+        width: 330px !important;
+    }
+
+    .blogs-tags {
+        padding-top: 0.8rem !important;
+    }
+
+    /* blog page css end  */
+
+
+    /* mini goa page css start  */
+
+    #Mini-goa {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .mini-goa img {
+        height: 25rem;
+    }
+
+    .mini-goa-heading h3 {
+        font-size: 28px;
+    }
+
+    .blog-date1 {
+        padding-top: 0.8rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .open-time {
+        padding-top: 2rem;
+    }
+
+    .mini-goa-left {
+        padding-top: 0.8rem;
+    }
+
+    /* mini goa page css end */
+
+
+    /* blog2 page css start */
+
+    #blog2-section1 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .blog2-page img {
+        height: 35rem;
+    }
+
+    .blog2-page h3 {
+        font-size: 28px;
+    }
+
+    #blog2-section1 p {
+        padding-top: 1rem;
+    }
+
+    /* blog2 page css end */
+
+
+    /* blog3 page css start */
+
+    #blog3-section1 {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+
+    #blog3-section1 h3 {
+        font-size: 28px;
+        padding-top: 1rem;
+    }
+
+    .blog3-page h5 {
+        padding-top: 0.8rem;
+    }
+
+    .blog3-date {
+        padding-top: 0.8rem;
+    }
+
+    #blog3-section1 p {
+        padding-top: 0.8rem;
+    }
+
+
+    /* blog3 page css end */
+
+
+}
+
+@media only screen and (min-width:1441px) and (max-width:2560px) {
+    .logo {
+        padding-left: 4rem;
+
+    }
+
+    #home-section-1 {
+        height: 35rem;
+    }
+
+    #header ul a {
+        margin: 1rem;
+        font-size: 20px;
+    }
+
+    .group {
+        height: 35rem;
+        max-width: 30rem;
+    }
+
+    .text {
+        padding: 0 2rem;
+    }
+
+    .main-heading {
+        font-size: 35px;
+    }
+
+    .main-pera {
+        padding-top: 2rem;
+    }
+
+    #section2 {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .section2-heading {
+        font-size: 28px;
+    }
+
+    .bookend {
+        margin: 10px auto;
+    }
+
+    .home-sec-2-main {
+        padding-bottom: 1rem;
+    }
+
+    .summary-1 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+
+
+    .home-section-3 {
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+    }
+
+    .home-section3-heading {
+        font-size: 28px;
+    }
+
+    .impor-box {
+        padding-top: 3rem;
+    }
+
+    .box {
+        padding-top: 2rem;
+    }
+
+    #section-4 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+
+
+    .section-4-head {
+        font-size: 28px;
+    }
+
+    .full-span-column {
+        grid-column: 1 / span 2;
+        grid-row: span 1;
+    }
+
+    .gallery {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    #home-section-5 {
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+
+    .section6-head {
+        font-size: 22px;
+        padding-bottom: 3rem !important;
+
+    }
+
+    .section6-head p {
+        padding-top: 1.8rem;
+    }
+
+    .section6-head h3 {
+        font-size: 28px;
+    }
+
+    .card-home {
+        padding-top: 1rem;
+    }
+
+    .card2-home {
+        padding-top: 6rem;
+
+    }
+
+    #section5 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section5-heading {
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+    }
+
+    .section5-box {
+        padding-bottom: 1rem;
+    }
+
+    .home-footer {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 19px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .icon {
+        padding-right: 1rem;
+    }
+
+    .footer-heading {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-size: 22px;
+    }
+
+    .footer-pera {
+        padding-top: 1.5rem;
+        margin-bottom: 0rem;
+        font-size: 19px;
+    }
+
+    .map {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .map iframe {
+        width: 240px;
+        height: 180px;
+    }
+
+    footer {
+        padding-bottom: 1rem;
+    }
+
+    /* about page css start  */
+    #About-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        /* background-color: rgb(226, 239, 245); */
+    }
+
+    .about1 h3 {
+        font-size: 28px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 h4 {
+        padding-top: 1rem;
+        font-size: 22px;
+        padding-bottom: 0.5rem;
+    }
+
+    .about1 p {
+        padding: 0 .5rem;
+    }
+
+    .About-sec-part1 {
+        padding-top: 0.2rem;
+    }
+
+    #About-section1-0 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .sec-part1 {
+        padding-top: 0.6rem;
+        padding-bottom: 0.4rem;
+        font-size: 25px;
+    }
+
+    .image-1 {
+        width: 22rem;
+        height: 18rem;
+        margin-left: 2rem;
+    }
+
+    .image-1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain1 {
+        border: 3px solid #000;
+        width: 22.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 5.5rem;
+        z-index: -1;
+        padding-bottom: 10rem;
+    }
+
+    .image-column1 {
+        width: 28.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+    #About-section2 {
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+    .About-section2-head {
+        padding-bottom: 4rem;
+        font-size: 28px !important;
+    }
+
+
+    .card-flyer {
+        width: 30%;
+    }
+
+    .card-flyer .text-box .text-container {
+        padding: 10px 10px;
+    }
+
+    .card-flyer:hover {
+        margin-top: 10px;
+    }
+
+    .card-flyer .text-box p {
+        margin-top: 10px;
+        font-size: 19px;
+        letter-spacing: 0px !important;
+    }
+
+    #About-section3 {
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+
+    .About-section3-head {
+        font-size: 28px;
+        text-align: center;
+        font-weight: 600;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+
+    .About-section3-head1 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 19px;
+        font-style: normal;
+        padding-bottom: 0.5rem;
+    }
+
+    .blank {
+        padding-top: 2rem;
+    }
+
+    .About-section3-heighlight1 {
+        width: 100% !important;
+        padding-top: 2rem;
+    }
+
+
+    .about-highlight {
+        padding-top: 0.5rem;
+
+    }
+
+    #About-section4 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .About-section4-head {
+        font-size: 25px !important;
+    }
+
+    .pera-head,
+    .pera-head p,
+    .pera-head strong {
+        padding: 0.5rem !important;
+    }
+    .pera-head{
+        padding-top: 1rem!important;
+        padding-bottom: 3rem!important;
+    }
+    /* about page css end */
+
+
+    /* How to reach page css end */
+
+    #Reach-section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .reach-head-2 {
+        margin-top: 0.55em;
+        font-size: 28px;
+        margin-bottom: 28px;
+    }
+
+    .visit-underline {
+        width: 7%;
+        margin-left: 47%;
+        padding-bottom: 1rem;
+    }
+
+    .visit p {
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    #Reach-section-2 {
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .Reach-heading-1 {
+        padding-bottom: 3rem;
+        font-size: 28px;
+
+    }
+
+    .reach-box {
+        width: 30% !important;
+        margin: 0 1.5%;
+    }
+
+    .reach-img {
+        padding: 10px;
+    }
+
+    .reach-descrip h4 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .reach-descrip p {
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .header {
+        height: 20rem;
+    }
+
+    .dist-citiy {
+        font-size: 28px;
+        line-height: 1.1;
+        letter-spacing: 0;
+        font-family: cormorant garamond;
+        font-weight: 500;
+        color: #fff;
+        font-style: normal;
+        padding-top: 2rem;
+    }
+
+    .dist-km {
+        font-size: 22px;
+    }
+
+    #Reach-section-3 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .Reach-section3-head {
+        font-size: 21px;
+    }
+
+    .Reach-section3-head2 {
+        font-size: 28px;
+    }
+
+    .visit-box {
+        padding-top: 4rem;
+    }
+
+    .visit-box p {
+        padding-left: 4rem;
+        padding-bottom: 0rem;
+        padding-top: 0.1rem;
+    }
+
+    .visit-box h6 {
+        padding-left: 4rem;
+        padding-bottom: 0rem;
+        padding-top: 0.1rem;
+        font-size: 20px;
+    }
+
+    /* How to reach css end */
+
+
+    /*Near by place  css start */
+
+
+    #nearbyplaces-1 {
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
+    }
+
+    .nearby-heading {
+        font-size: 28px;
+        padding-top: 1rem;
+    }
+
+    .place-heading1 h4 {
+        width: 180px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading2 h4 {
+        width: 190px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading3 h4 {
+        width: 270px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .place-heading4 h4 {
+        width: 310px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .near-main {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .place {
+        padding-top: 0.2rem;
+    }
+
+    .place-heading {
+        font-size: 19px !important;
+    }
+
+    .near-pera {
+        padding-top: 0.2rem;
+    }
+
+    .image-11 {
+        width: 23rem;
+        height: 18rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .image-11 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemain11 {
+        border: 3px solid #0f5e9f;
+        width: 23.5rem;
+        height: 18rem;
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+        z-index: -1;
+    }
+
+    .image-column11 {
+        width: 23.5rem;
+        height: 15rem;
+        position: relative;
+        padding-top: 2.5rem;
+
+    }
+
+
+    /* right   */
+
+
+
+
+    .place1 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    #nearby-2 {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .nearby-sec2-head {
+        font-size: 28px;
+        padding-bottom: 3rem;
+    }
+
+    .near-img {
+        width: 100% !important;
+        height: 210px !important;
+    }
+
+    .heart {
+        top: 2%;
+        right: 0%;
+        padding-right: 1.5rem;
+    }
+
+    .heart span {
+        padding: 10px;
+    }
+
+    .near-decrs {
+        padding-top: 1rem;
+    }
+
+    .near-decrs h4 {
+        background-color: #ededed;
+        padding: 0.5rem;
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+
+    .near-decrs strong {
+        font-size: 19px;
+        letter-spacing: 0;
+        width: 20px;
+    }
+
+    .near-decrs p {
+        margin-top: 2px;
+        font-size: 19px;
+        letter-spacing: 0px;
+    }
+
+    .near-box {
+        padding-bottom: 0.5rem;
+    }
+
+    /* near by place css end */
+
+
+    /* blog page css start  */
+    #blogtwo {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .blog-main-pera {
+        padding: 0rem 3rem;
+    }
+
+    #blog-section1 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .blog-box-contant {
+        padding-top: 1rem !important;
+    }
+
+    .blog-box {
+        padding-bottom: 2rem;
+        align-items: justify;
+    }
+
+    .blog-box h3 {
+        font-size: 28px;
+    }
+
+    .blog-box2 {
+        padding-bottom: 2rem !important;
+    }
+
+    .mini-goa-left {
+        padding-top: 1.5rem;
+    }
+
+
+    .posts-heading h4 {
+        font-size: 21px;
+        padding: 0.2rem 1rem;
+    }
+
+    .Posts img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .Posts ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .Posts iframe {
+        width: 330px !important;
+    }
+
+    .blogs-tags {
+        padding-top: 0.8rem !important;
+    }
+
+    /* blog page css end  */
+
+
+    /* mini goa page css start  */
+
+    #Mini-goa {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .mini-goa img {
+        height: 25rem;
+    }
+
+    .mini-goa-heading h3 {
+        font-size: 25px;
+    }
+
+    .blog-date1 {
+        padding-top: 0.8rem;
+        padding-bottom: 1rem;
+    }
+
+    .open-time {
+        padding-top: 2rem;
+    }
+
+    .mini-goa-left {
+        padding-top: 0.8rem;
+    }
+
+    /* mini goa page css end */
+
+
+    /* blog2 page css start */
+
+    #blog2-section1 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .blog2-page img {
+        height: 35rem;
+    }
+
+    .blog2-page h3 {
+        font-size: 28px;
+    }
+
+    #blog2-section1 p {
+        padding-top: 1rem;
+    }
+
+    /* blog2 page css end */
+
+
+    /* blog3 page css start */
+
+    #blog3-section1 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+
+    #blog3-section1 h3 {
+        font-size: 28px;
+        padding-top: 1rem;
+    }
+
+    .blog3-page h5 {
+        padding-top: 0.8rem;
+    }
+
+    .blog3-date {
+        padding-top: 0.8rem;
+    }
+
+    #blog3-section1 p {
+        padding-top: 0.8rem;
+    }
+
+
+    /* blog3 page css end */
+
+
+}
+
+
+
+
+
+
+
+
